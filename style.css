@@ -23,3 +23,52 @@ body{
     list-style: none;
     padding-top: 40px;
 }
+.li:hover{
+    color: palevioletred;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height:100vh;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 130px;
+}
+.banner-text{
+    width: 50%;
+    text-align: left;
+}
+.banner-head{
+    color: #272727;
+    font-size: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    text-align: left;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 32px;
+}
+.img{
+    width: 75%;
+    height: auto;
+    padding-left: 100px;
+}
+.btn{
+    margin-top: 30px;
+    padding: 15px 30px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
