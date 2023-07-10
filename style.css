@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(245, 204, 211); 
+    padding: 1px;
+}
+.logo-img{
+    width: 120px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    font-size: 17px;
+    align-items: center;
+    list-style: none;
+    padding-top: 40px;
+}
