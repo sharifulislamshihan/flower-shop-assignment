@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 }
 .nav-container{
     display: flex;
@@ -186,7 +186,7 @@ body{
 .hot-deal-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -297,4 +297,39 @@ body{
     font-size: 20px;
     font-weight: 700;
     border: none;
+}
+.footbg{
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    color: #FFF;
+}
+.foot{
+    padding: 70px;
+}
+.foot-head{
+    color: white;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+.foot-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.foot-para{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
