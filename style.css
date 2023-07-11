@@ -190,3 +190,63 @@ body{
     font-weight: 400;
     line-height: 30px;
 }
+.service{
+    margin: 100px 20px;
+}
+.service-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+    text-decoration: underline;
+    padding-bottom: 60px;
+}
+.service-details{
+    display: flex;
+    justify-content: space-around;
+}
+.ser-img{
+    width: 500px;
+    height: auto;
+}
+.service-list{
+    list-style: disc;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-right: 110px;
+    padding: 13px;
+    border-radius: 5px;
+    font-weight: 300px;
+}
+.service-list:hover{
+    color: #E55473;
+}
+.insta{
+    text-align: center;
+    background-color: rgb(161, 199, 186);
+    padding-bottom: 60px;
+    height: 90vh;
+}
+.insta-head{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.insta-img{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 140px;
+}
+.images{
+    width: 250px;
+    height: auto;
+}
