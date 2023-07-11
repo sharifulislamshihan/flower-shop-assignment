@@ -139,3 +139,29 @@ body{
     line-height: 35px;
     text-decoration-line: underline;
 }
+.support{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 150px;
+    padding-bottom: 10px;
+}
+.support-img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+.sup-img{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    padding-left: 75px;
+}
+.sup-txt{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
