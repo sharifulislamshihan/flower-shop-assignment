@@ -8,7 +8,7 @@ body{
 .nav-container{
     display: flex;
     justify-content: space-around;
-    background-color:rgb(245, 204, 211); 
+    background-color:rgb(224, 151, 163); 
     padding: 1px;
 }
 .logo-img{
@@ -71,4 +71,71 @@ body{
     font-size: 20px;
     font-weight: 700;
     border: none;
+}
+.feature{
+    /* background-image: url(./Asset/bg.jpg); */
+    height: 100vh;
+    background-color: rgba(169, 216, 255, 0.678);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.feature-text{
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.feature-head{
+    color: rgb(20, 19, 19);
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-description{
+    color: rgb(65, 61, 61);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.feature-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 190px;
+    gap: 10px;
+}
+.box-img{
+    height: auto;
+    width: 200px;
+}
+.box1{
+    border-radius: 300px 300px 0px 0px;
+    background:  rgba(167, 33, 98, 0.15);
+    padding-top: 35px;
+}
+.box2{
+    border-radius: 300px 300px 0px 0px;
+    background:rgba(5, 151, 160, 0.15);
+    padding-top: 45px;
+}
+.box3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.under-txt{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 180px;
+    gap: 20px;
+}
+.txt{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
